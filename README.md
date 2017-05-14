@@ -10,6 +10,15 @@
 This is a basic fictional website for a bakery, which came with a buggy custom module that I fixed.
 I also added a own custom module with a touch of JavaScript and a Zen sub-theme.
 
+## Prerequisites
+
+You will need the following things properly installed on your computer:
+
+* [Git](https://git-scm.com/) v2
+* [MAMP](https://www.mamp.info/en/downloads/) v4
+  You will want of version of MAMP that includes PHPv5, not PHPv7
+
+
 ## Installation
 
 ```bash
@@ -18,7 +27,6 @@ cd cameron_bakery
 ```
 
 * Click on Preferences in your MAMP window and set your document root to the top level of your repository.
-
 
 
 ## Import the Database
@@ -39,6 +47,10 @@ cd cameron_bakery
 
 * Visit Cameron's Bakery at [http://localhost:8888](http://localhost:8888).
 * Use the username `cameron` and password `cameron` to login to the Cameron's Bakery site
+
+
+## Known Issues
+If you run a version of MAMPv4 that uses PHPv7 instead of PHPv4 you may see a warning "Warning: session_destroy(): Session callback expects true/false return value in user_logout() (line 178" .  This is a known issue of Drupalv7.51 plus PHPv7.
 
 
 ### License
