@@ -56,19 +56,19 @@ function start_form() {
 
   function question_two() {
     $form['nuts'] = array(
-    '#title' => 'Do you have any nut allergies?',
-    '#type' => 'radios',
-    '#description' => t(' '),
-    '#options' => array(
-    t('Yes'),
-    t('No'),
-    ),
-    '#required' => TRUE,
+      '#title' => 'Do you have any nut allergies?',
+      '#type' => 'radios',
+      '#description' => t(' '),
+      '#options' => array(
+        t('Yes'),
+        t('No'),
+      ),
+      '#required' => TRUE,
     );
 
     $form['submit'] = array(
-    '#type' => 'submit',
-    '#value' => 'submit',
+      '#type' => 'submit',
+      '#value' => 'submit',
     );
 
     return $form;
@@ -76,19 +76,19 @@ function start_form() {
 
   function question_three() {
     $form['bacon'] = array(
-    '#title' => 'Do you eat bacon?',
-    '#type' => 'radios',
-    '#description' => t(' '),
-    '#options' => array(
-    t('Yes'),
-    t('No'),
-    ),
-    '#required' => TRUE,
+      '#title' => 'Do you eat bacon?',
+      '#type' => 'radios',
+      '#description' => t(' '),
+      '#options' => array(
+        t('Yes'),
+        t('No'),
+      ),
+      '#required' => TRUE,
     );
 
     $form['submit'] = array(
-    '#type' => 'submit',
-    '#value' => 'submit',
+      '#type' => 'submit',
+      '#value' => 'submit',
     );
 
     return $form;
